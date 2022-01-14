@@ -12,6 +12,13 @@
     border: 1px solid black;
     margin: auto;
 }
+
+@media screen and (min-width: 970px) {
+    .game{
+        left: 25%;
+    }
+  }
+
 #character{
     width: 20px;
     height: 50px;
@@ -45,4 +52,10 @@
 p{
     position: absolute;
     left: 48%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
