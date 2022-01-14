@@ -3,21 +3,36 @@
     margin: 0;
     overflow-x: hidden;
 }
+
+html{
+    height: 100%;
+}
+
+body {
+    cursor: pointer;
+    min-height: 100%;
+}
+
 .game{
     position: absolute;
     width: 500px;
     height: 200px;
     top: 30px;
-    left: 34%;
     border: 1px solid black;
     margin: auto;
 }
 
-@media screen and (min-width: 970px) {
+@media screen and (max-width: 780px) {
     .game{
-        left: 25%;
+        width: 100%;
     }
   }
+
+@media screen and (min-width: 780px){
+    .game{
+        left: 35%;
+    }
+}
 
 #character{
     width: 20px;
@@ -25,13 +40,17 @@
     background-color: red;
     position:relative;
     top: 150px;
+    left: 5px;
+    border-radius: 10px;
 }
 .animate{
     animation: jump 0.3s linear;
 }
 @keyframes jump{
     0%{top: 150px;}
-    50%{top: 100px}
+    40%{top: 100px}
+    50%{top: 70}
+    60%{top: 100px}
     100%{top: 150px;}
 }
 
