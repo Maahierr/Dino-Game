@@ -33,6 +33,7 @@
     width: 20px;
     height: 20px;
     position: relative;
+    border-radius: 50%;
     top: 130px;
     left: 500px;
     animation: block 1s infinite linear;
