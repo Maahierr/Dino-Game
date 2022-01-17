@@ -9,7 +9,6 @@ html{
 }
 
 body {
-    cursor: pointer;
     min-height: 100%;
 }
 
@@ -31,6 +30,9 @@ body {
 @media screen and (min-width: 780px){
     .game{
         left: 35%;
+    }
+    body{
+        cursor: pointer;
     }
 }
 
