@@ -48,9 +48,10 @@ body {
 }
 @keyframes jump{
     0%{top: 150px;}
-    40%{top: 100px}
-    50%{top: 70}
-    60%{top: 100px}
+    20%{top: 100px}
+    40%{top: 70}
+    60%{top: 70px}
+    80%{top: 100px;}
     100%{top: 150px;}
 }
 
